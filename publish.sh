@@ -7,7 +7,7 @@
 #
 set -euo pipefail
 
-REMOTE="git@github.com:upliftos/coder.git"
+REMOTE="git@github.com:upliftos/coder-types.git"
 BRANCH="main"
 PREFIX="packages/config"
 

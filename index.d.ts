@@ -3,7 +3,7 @@
  *
  * Usage:
  *
- *   import type { ProjectsConfig } from '@upliftos/coder';
+ *   import type { ProjectsConfig } from '@upliftos/coder-types';
  *
  *   const config: ProjectsConfig = {
  *     repo: { url: 'https://github.com/org/repo' },
@@ -93,7 +93,7 @@ export interface ProjectsConfig {
  * Helper to define a projects config with full type checking.
  *
  * Usage:
- *   import { defineConfig } from '@upliftos/coder';
+ *   import { defineConfig } from '@upliftos/coder-types';
  *   export default defineConfig({ ... });
  */
 export declare function defineConfig(config: ProjectsConfig): ProjectsConfig;
