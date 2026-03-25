@@ -39,6 +39,8 @@ export interface CustomTerminalConfig {
 export interface ProjectConfig {
   /** Short description of the project */
   description: string;
+  /** Project path relative to repo root */
+  path?: string;
   /** Tab color — CSS color string or [r, g, b] tuple */
   color: string | [number, number, number];
   /** Platform configurations (web server, API server, mobile app) */
@@ -50,6 +52,8 @@ export interface ProjectConfig {
       port: number;
       /** Dev server URL */
       url: string;
+      /** URL to open in browser on start (defaults to url) */
+      startUrl?: string;
     };
     api?: {
       /** Path relative to repo root */
@@ -58,6 +62,8 @@ export interface ProjectConfig {
       port: number;
       /** API server URL */
       url: string;
+      /** URL to open on start (defaults to url) */
+      startUrl?: string;
     };
     mobile?: {
       /** Path relative to repo root */
