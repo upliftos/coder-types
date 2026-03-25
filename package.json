@@ -1,0 +1,25 @@
+{
+  "name": "@upliftos/coder",
+  "version": "0.1.0",
+  "description": "Type definitions for Coder projects.ts configuration files",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:upliftos/coder.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "coder",
+    "upliftos",
+    "projects",
+    "config",
+    "typescript"
+  ]
+}
